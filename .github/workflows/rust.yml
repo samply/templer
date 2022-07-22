@@ -28,7 +28,7 @@ jobs:
       matrix:
         arch:
           - amd64
-          - arm64
+#          - arm64
 
     steps:
       - name: Set up QEMU
