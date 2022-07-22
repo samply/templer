@@ -10,8 +10,7 @@ jobs:
     strategy:
       matrix:
         component:
-          - proxy
-          - broker
+          - templer
 
     steps:
       - name: Checkout
